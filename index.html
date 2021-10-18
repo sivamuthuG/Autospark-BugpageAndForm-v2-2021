@@ -1168,18 +1168,19 @@
                         </div>
                         <div class="bug-table" style="position:relative;top: 25px;">
                             <table class="table table-hover">
-                                <thead style="color: red;background: #eae9e9;position: fixed;width: 100%" class="thead-dark t-head-fixed">
+                                <thead style="color: red;background: #eae9e9;position: fixed;z-index: 1;" class="thead-dark t-head-fixed">
                                     <tr>
+                                        <th scope="col" style="min-width: 45px;"></th>
                                         <th scope="col" style="min-width: 75px;">Id</th>
-                                        <th scope="col" style="min-width: 162px;">Bug Title</th>
+                                        <th scope="col" style="min-width: 149px;">Bug Title</th>
                                         <th scope="col" style="min-width: 205px;">Reporter</th>
-                                        <th scope="col" style="min-width: 175px;">Date</th>
-                                        <th scope="col" style="min-width: 250px;">Source of Automation</th>
+                                        <th scope="col" style="min-width: 155px;">Date</th>
+                                        <th scope="col" style="min-width: 248px;">Source of Automation</th>
                                         <th scope="col" style="min-width: 195px;">Status</th>
                                         <th scope="col" style="min-width: 225px;">Assignee</th>
                                     </tr>
                                 </thead>
-                                <tbody id="bugTableData"></tbody>
+                                <tbody id="bugTableData" style="position: relative;top: 35px;z-index: 0;"></tbody>
                             </table>
                         </div>
                         <div class="form-footer">
@@ -1189,6 +1190,7 @@
                                     <span class=" me-1" style="font-size: 13px;">25 Record Per Page</span>
                                     <div class="pageRecord">
                                         <span class=" me-1" style="font-size: 13px;">50 Record Per Page</span>
+                                        <hr class="my-1">
                                         <span class=" me-1" style="font-size: 13px;">100 Record Per Page</span>
                                     </div>
                                 </div>

@@ -1260,6 +1260,9 @@ td {
     .form-footer {
         top: 830px;
     }
+    .pageRecord {
+        left: 1715px !important;
+    }
 }
 
 @media only screen and (max-width: 1550px) {

@@ -1455,11 +1455,6 @@ td {
     display: none !important;
 }
 
-.bug-table {
-    overflow-y: auto;
-    height: auto;
-}
-
 .bug-table th {
     position: sticky;
     top: 0;
@@ -1488,8 +1483,18 @@ td {
     width: 125px;
     margin-left: 63px;
     background: #fff;
-    height: 45px;
-    top: -45px;
-    left: 1335px;
+    height: 53px;
+    top: -53px;
+    left: 1332px;
     cursor: pointer;
+}
+
+.bulk-select tr:hover {
+    display: block !important;
+}
+
+.bulk-select {
+    display: none;
+    position: absolute;
+    z-index: 5;
 }

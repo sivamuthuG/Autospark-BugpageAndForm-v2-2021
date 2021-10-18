@@ -739,7 +739,7 @@ function loadBugData(data) {
     let tableHtml = '';
     for (let index = 0; index < data.length; index++) {
         let obj = data[index];
-        tableHtml += '<tr><td>' + (index + 1) + '</td><td>' + obj.bugTitle + '</td><td>' + obj.reporter + '</td><td>' + obj.tagName + '</td><td>' + obj.srcAuto + '</td><td>' + obj.status + '</td><td>' + obj.assinee + '</td></tr>';
+        tableHtml += '<tr><td><input class=" bulk-select form-check-input" type="checkbox" value="" id="flexCheckDefault"></td><td>' + (index + 1) + '</td><td>' + obj.bugTitle + '</td><td>' + obj.reporter + '</td><td>' + obj.tagName + '</td><td>' + obj.srcAuto + '</td><td>' + obj.status + '</td><td>' + obj.assinee + '</td></tr>';
 
     }
     tableBody.innerHTML = tableHtml;

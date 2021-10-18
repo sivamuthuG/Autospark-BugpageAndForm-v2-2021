@@ -1231,6 +1231,9 @@ td {
     .toolmenu {
         height: 1710px;
     }
+    .form-footer {
+        top: 1717px;
+    }
 }
 
 
@@ -1249,13 +1252,23 @@ td {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1750px) {
     .toolmenu {
         margin: 0;
         /* height: 900px; */
     }
     .form-footer {
         top: 830px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .toolmenu {
+        margin: 0;
+        /* height: 900px; */
+    }
+    .form-footer {
+        top: 728px;
     }
 }
 

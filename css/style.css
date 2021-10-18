@@ -1272,6 +1272,16 @@ td {
     }
 }
 
+@media only screen and (min-width: 1900px) {
+    .toolmenu {
+        margin: 0;
+        /* height: 900px; */
+    }
+    .form-footer {
+        top: 915px;
+    }
+}
+
  ::-webkit-scrollbar {
     width: 10px;
 }
